@@ -6,7 +6,7 @@ SRCS = philo.c ft_putchar_fd.c ft_putstr_fd.c ft_isdigit.c ft_atoi.c \
 OBJS = $(SRCS:.c=.o)
 
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -g -g3  -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror #-g -g3  -fsanitize=address
 
 all: $(NAME)
 
